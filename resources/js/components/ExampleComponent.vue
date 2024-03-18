@@ -1,10 +1,12 @@
 <template>
-  <div>
-    <h1>Hello Vue.js 3!</h1>
+  <div id="app">
+    <h1 style="color:red">
+     Hello world! 
+    </h1>
   </div>
 </template>
 
-<script setup>
+<script >
 </script>
 
 <style scoped>
