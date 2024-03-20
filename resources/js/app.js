@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import ExampleComponent from './components/ExampleComponent.vue';
+import HomepageComponent from './components/HomepageComponent.vue';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const app = createApp({});
 
 // Register your Vue components
-app.component('example-component', ExampleComponent);
+app.component('homepage-component', HomepageComponent);
 
 // Mount the Vue app to a DOM element
 app.mount('#app');
